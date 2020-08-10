@@ -1,0 +1,9 @@
+<div> 
+    <button (click)="newPost()">New Post</button>
+    <table>
+        <tr><th>Title</th><th>Created</th></tr>
+        <tr *ngFor="let i of post_list" (click)="openPost(i.postid)">
+            <td>{{i.title}}</td> <td>{{toDate(i.created)}}</td> 
+        </tr>
+    </table>
+</div>

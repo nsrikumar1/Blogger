@@ -1,0 +1,33 @@
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+th {
+    background-color: rgb(20, 80, 160);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+button {
+    background-color: rgb(20, 80, 160); 
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+  }
+button:hover{background-color: #0e93e0;}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr:hover {background-color: #0e93e0;}
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(20, 80, 160);
+    text-align: center;
+}
